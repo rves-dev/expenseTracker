@@ -16,11 +16,62 @@
     width: 100%;
     }
 #main{
-    border: red 1px solid;
-    margin-top: 200px;
-    background-color: azure;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+#selection_box{
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 10px 10px;
+    background-color: rgb(141, 196, 196);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#selection_label_box{
+    margin: 10px 10px;
+    padding 20px 20px;
+}
+#selection_option_box{
+    display: grid; grid-template-columns: auto auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#expense_box{
+
+    margin: 5px;
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#income_box{
+    margin: 5px;
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+#result_box{
+    border-radius: 10px;
+    margin-top: 20px;
+    min-height: 20lh;
+    padding: 10px 10px;
+    background-color: rgb(141, 196, 196);
     text-align: center;
 }
+#result_main{
+    min-height: 20lh;
+    margin: 5px 5px;
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+
+
 #footer{
     background-color: rgb(73, 61, 52);
     text-align: center;
@@ -30,6 +81,6 @@
     background-color: #333;
     color:white;
     padding: 20px 0px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
