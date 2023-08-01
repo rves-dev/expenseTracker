@@ -21,14 +21,39 @@
                 <h3>SELECT TRANSACTION TYPE</h3>
             </div>
             <div id="selection_option_box">
-                <div id="expense_box">
+                <div id="expense_box" class="click_div">
                     <h4>EXPENSE</h4>
                 </div>
-                <div id="income_box">
+                <div id="income_box" class="click_div">
                     <h4>INCOME</h4>
                 </div>
             </div>
         </div>
+
+<!-- START of Modal box (hidden by default) -->
+
+        <div id="expense_modal" class="modal">
+            <div id="expense_modal_header" class="model_content">
+                <div class="title">EXPENSE</div>
+                <button class="close_button">&times;</button>
+            </div>
+            <div id="expense_modal_main" class="model_content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti, id in nesciunt sunt, amet facere quae sapiente excepturi molestiae veniam! Ullam, quod. Ex, ipsa! Commodi voluptates molestias aperiam delectus omnis sit distinctio atque labore architecto eos debitis et quod, ad, voluptatem vero dolorum facilis! Dolores optio quasi sit asperiores.
+            </div>
+        </div>
+        <div id="income_modal" class="modal">
+            <div id="income_modal_header" class="model_content">
+                <div class="title">INCOME</div>
+                <button class="close_button">&times;</button>
+            </div>
+            <div id="income_modal_main" class="model_content" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti, id in nesciunt sunt, amet facere quae sapiente excepturi molestiae veniam! Ullam, quod. Ex, ipsa! Commodi voluptates molestias aperiam delectus omnis sit distinctio atque labore architecto eos debitis et quod, ad, voluptatem vero dolorum facilis! Dolores optio quasi sit asperiores.
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+<!-- END of Modal box (hidden by default) -->
+
         <div id="result_box">
             <div id="result_main">
                 <div id="result_header">
@@ -38,6 +63,7 @@
             </div>
         </div>
     </div>
+    <div class="clear-fix"></div>
     <div id="footer">
         <div id="footer_box">
             <div id="contact_us_box">
